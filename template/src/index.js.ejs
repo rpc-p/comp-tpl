@@ -1,4 +1,26 @@
+import * as React from "react";
+import * as ReactDOM from "react-dom";
+import * as PropTypes from 'prop-types';
+//
 import './index.scss';
 
-export default class <%= locals.exportName %> {
+export interface <%= locals.exportName %>Props {
+
+}
+
+
+export default class <%= locals.exportName %> extends React.PureComponent<<%= locals.exportName %>Props> {
+  static propTypes = {
+
+  }
+
+  static defaultProps = {
+
+  }
+
+  state = {}
+
+  render() {
+    return null;
+  }
 }
